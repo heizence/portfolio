@@ -97,7 +97,7 @@ export const SkillText = [
         description: "최소 1번 이상 경험하였고 기본적인 수준의 지식과 사용 경험이 있습니다.",
         stacks: [
             'Redux-Logger', 'Redux-thunk', 'React-Native', 
-            'Parse Server', 'Back4App', 'JWT', 'Heroku'
+            'Parse-Server', 'Back4App', 'JWT', 'Heroku'
         ]
     }
 ]
@@ -137,7 +137,7 @@ export const ProjectText = [
         ],
         stacks: [
             'React','Redux','React-router','Node.js', 'Express', 'JWT', 
-            'Parse Server', 'Back4App', 'Heroku'
+            'Parse-Server', 'Back4App', 'Heroku'
         ],
         githubRepo: {
             client: "https://github.com/heizence/Star-Wars-Website-client",

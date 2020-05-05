@@ -2,6 +2,8 @@ import React from 'react';
 import Modal from 'react-modal';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+import closebtn from '../images/closebtn.png';  //close button
+
 import './PortfolioModal.css'
 
 const customStyles = {
@@ -28,9 +30,7 @@ export default function App({ modalOpen, toggleModal, data }){
         style={{...customStyles, 'overflow-y': 'scroll'}}
         contentLabel="Example Modal">
 
-      <div className="modal-box">
-        <span className="close" onClick={toggleModal}></span>
-
+      <div className="modal-box">      
         <Carousel infiniteLoop useKeyboardArrows
         showThumbs={false}>
         {imgFiles.map((img, index) => {
@@ -73,7 +73,10 @@ export default function App({ modalOpen, toggleModal, data }){
         <a className="githubRepo"
         href={githubRepo.server} 
         target="_blank" rel="noopener noreferrer">Server</a>
-
+        
+        <img className="close-button" 
+        src={closebtn} width='30px' height='30px' alt='' 
+        onClick={toggleModal}/>
       </div>
       </Modal>
     </div>

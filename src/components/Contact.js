@@ -1,7 +1,7 @@
 import React from 'react';
 import { ContactText } from '../portfolio_data/TextData'
-import githubLogo from '../portfolio_data/mediaFiles/github2.svg';
-import linkedInLogo from '../portfolio_data/mediaFiles/linkedinlogo.png';
+import githubLogo from '../images/github2.svg';
+import linkedInLogo from '../images/linkedinlogo.png';
 import './Contact.css'
 
 const Contact = () => {

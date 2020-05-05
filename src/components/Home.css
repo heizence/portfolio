@@ -1,6 +1,6 @@
  /* Home component*/
  #home {
-    height: 900px;
+    height: 95vh; min-height: 400px;
     background-color: hsl(233, 27%, 25%);
     display: flex;
     flex-direction: column;

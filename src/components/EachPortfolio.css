@@ -1,0 +1,63 @@
+.portfolio-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60vw;
+    max-width: 500px;
+    max-height: 356px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: center;
+}
+
+#text {
+    text-align: center;
+}
+/* Learn more button */
+.button-notHover {
+    font-size: 0;
+    border: none
+}
+
+.button-Hover {
+    font-size: 20px;
+    color: 'black';
+    border: 2px solid black;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+/* Responsive CSS */
+@media screen and (min-width: 430px) {
+    .portfolio-img { height: 60vw; }
+  }
+  
+@media screen and (max-width: 429px) {
+    .portfolio-img { height: 80vw; }
+    .title { font-size: 20px;}
+    .stack-title { font-size: 15px; }
+    .stacks { font-size: 12px; }
+    .button-Hover { font-size: 15px; width: 100px; padding: 3px; }
+}
+
+@media screen and (max-width: 310px) {
+    .portfolio-img { height: 300px; }
+    .title { font-size: 15px;}
+    .stack-title { font-size: 12px; }
+    .stacks { font-size: 10px; }
+    .button-Hover { font-size: 10px; width: 70px; }
+}
+  
+  
+.githubRepo {
+    color: blue; text-decoration: none; margin-right: 20px;
+}
+  
+.button-Hover:hover {
+    background-color: rgb(148, 144, 144);
+}

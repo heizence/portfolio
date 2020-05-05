@@ -1,38 +1,71 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat';  /* From fontOption*/
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* First left space of paragraph */
+.paragraph-space {
+  margin-left: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Each component */
+#about {
+  background-color: none
+}
+#skills {
+  background-color: #ececec;
+}
+#project {
+  background-color: rgb(212, 245, 255);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* common CSS */
+.section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 50px 40px 70px 40px;
 }
 
-.App-link {
-  color: #61dafb;
+.content-container {
+  margin-bottom: 50px;
+  display: block;
+  text-align: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.content-title {
+  margin: 0px 0px 60px 0px;
+}
+.content-text {
+  text-align: left;
+  max-width: 1000px;
+}
+
+/* Responsive CSS */
+@media screen and (min-width: 601px) {
+  #home-title {
+    font-size: 50px;
   }
-  to {
-    transform: rotate(360deg);
+  #home-content {
+    font-size: 30px;
+  }
+  .section-title {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #home-title {
+    font-size: 30px;
+  }
+  #home-content {
+    font-size: 20px;
+  }
+  #navbar {
+    padding: 0
   }
 }

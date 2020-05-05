@@ -1,0 +1,12 @@
+#portfolio-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.each-portfolio {
+    width: 75vw; max-width: 400px;
+    border-radius: 5px;
+    background-color: white;
+}

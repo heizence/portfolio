@@ -66,7 +66,7 @@ class EachPortfolio extends Component {
                         return (
                             <span className="stacks" 
                             key={index} style={styles}>{stack}
-                            {index !== 0 && index < stacks.length-1 ? ', ' : ''}
+                            {index < stacks.length-1 ? ', ' : ''}
                             </span>
                         )
                     })}

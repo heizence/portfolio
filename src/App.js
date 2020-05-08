@@ -3,9 +3,8 @@ import './App.css';
 
 import Home from './components/Home'
 import About from './components/About'
-import Skills from './components/Skills'
 import Navbar from './components/Navbar'
-import Project from './components/Project'
+import Portfolio from './components/Portfolio'
 import Contact from './components/Contact'
 import ParticleBackground from './components/ParticleBackground';
 import FontLoader from './components/FontLoader'
@@ -19,8 +18,7 @@ function App() {
       <Navbar />
       <Home />
       <About />
-      <Skills />
-      <Project />
+      <Portfolio />
       <Contact />
     </div>
   );

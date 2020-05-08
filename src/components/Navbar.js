@@ -3,10 +3,10 @@ import { Link } from "react-scroll";
 import './Navbar.css'
 
 const Navbar = () => {
-    const section = ['home', 'about', 'skills', 'project', 'contact']
+    const section = ['home', 'about', 'portfolio', 'contact']
     return (
         <div id="navbar">       
-        <ul>
+        <ul id="list">
             {section.map((element, index) => {
                 return (
                     <Link
@@ -15,9 +15,9 @@ const Navbar = () => {
                     to={element}
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={-65}
                     duration= {500}
-                    ><li>{element.toUpperCase()}</li>
+                    ><li className="items">{element.toUpperCase()}</li>
                     </Link>
                 )
             })}

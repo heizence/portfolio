@@ -1,0 +1,16 @@
+#about {
+    background: none;
+}
+
+h3 {
+    margin-top: 40px;
+}
+
+.about-container {
+    text-align: left;
+    max-width: 700px;
+}
+
+.about-stacks {
+    padding-left: 20px;
+}

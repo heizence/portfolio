@@ -14,13 +14,10 @@
 
 /* Each component */
 #about {
-  background-color: none
+  background: none;
 }
 #skills {
   background-color: #ececec;
-}
-#project {
-  background-color: rgb(212, 245, 255);
 }
 
 /* common CSS */

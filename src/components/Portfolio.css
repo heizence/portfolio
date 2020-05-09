@@ -1,5 +1,5 @@
 #portfolio {
-    background-color: rgb(212, 245, 255);
+    background-color: hsl(0, 0%, 66%);
   }
 
 #portfolio-container {
@@ -7,10 +7,4 @@
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-}
-
-.each-portfolio {
-    width: 75vw; max-width: 400px;
-    border-radius: 5px;
-    background-color: white;
 }

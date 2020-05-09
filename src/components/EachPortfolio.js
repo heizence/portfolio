@@ -8,7 +8,7 @@ const textStyle = {
 }
 
 const imgStyleHover = {
-    backgroundColor: 'rgb(233, 233, 233)',
+    backgroundColor: 'rgb(199, 197, 197)',
     backgroundImage: 'none'
 }
 

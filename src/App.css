@@ -1,3 +1,4 @@
+/* common CSS */
 * {
   box-sizing: border-box;
   font-family: 'Montserrat';  /* From fontOption*/
@@ -12,15 +13,6 @@
   margin-left: 10px;
 }
 
-/* Each component */
-#about {
-  background: none;
-}
-#skills {
-  background-color: #ececec;
-}
-
-/* common CSS */
 .section {
   display: flex;
   flex-direction: column;
@@ -44,25 +36,13 @@
 
 /* Responsive CSS */
 @media screen and (min-width: 601px) {
-  #home-title {
-    font-size: 50px;
-  }
-  #home-content {
-    font-size: 30px;
-  }
-  .section-title {
-    font-size: 50px;
-  }
+  .section-title { font-size: 50px; }
 }
 
-@media screen and (max-width: 600px) {
-  #home-title {
-    font-size: 30px;
-  }
-  #home-content {
-    font-size: 20px;
-  }
-  #navbar {
-    padding: 0
-  }
+@media screen and (max-width: 369px) {
+  .content-title { font-size: 25px; }
+}
+
+@media screen and (max-width: 230px) {
+  .content-title { font-size: 20px; }
 }

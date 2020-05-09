@@ -13,23 +13,18 @@ import video02 from './mediaFiles/starwars-website/video02.mp4';
 export const HomeText = {
     title: "Hi, I'm ",
     name: 'Doheon Keum',
-    content: '계속 성장하기를 바라는 주니어 웹 개발자입니다.'
-}
-
-export const AboutText = [
-    {
-        title: "Who I am",
-        contents: [
-            {
-                subtitle: "",
-                text: "대학에서 전자 공학을 전공했지만 소프트웨어에 흥미를 느껴 부트캠프에서 소프트웨어 개발 과정을 수료했습니다. " +
-                "약 1년간 공부를 하면서 개발 기술과 문제 해결 능력을 키웠고 지금은 개인 프로젝트를 하면서 " +
-                "계속 공부를 하고 있습니다. " +
-                "Front-end, Back-end 모두에 관심이 있고 앞으로 여러 가지 서비스를 개발해 보고 싶습니다." 
-            }          
-        ]
+    subtitle: '계속 성장하기를 바라는 주니어 웹 개발자입니다.',
+    text: 
+    "대학에서 전자 공학을 전공했지만 소프트웨어에 흥미를 느껴 부트캠프에서 소프트웨어 개발 과정을 수료했습니다. " +
+    "약 1년간 공부를 하면서 개발 기술과 문제 해결 능력을 키웠고 지금은 개인 프로젝트를 하면서 " +
+    "계속 공부를 하고 있습니다. " +
+    "Front-end, Back-end 모두에 관심이 있고 앞으로 여러 가지 서비스를 개발해 보고 싶습니다." ,
+    contact: {
+        Email: "heizence6626@gmail.com",
+        github: "https://github.com/heizence",
+        linkedIn: "https://www.linkedin.com/in/%EB%8F%84%ED%97%8C-%EA%B8%88-30937a187/"
     }
-]
+}
 
 export const SkillText = [       
     {
@@ -92,9 +87,3 @@ export const PortfolioText = [
         }
     }
 ]
-
-export const ContactText = {
-    Email: "heizence6626@gmail.com",
-    github: "https://github.com/heizence",
-    linkedIn: "https://www.linkedin.com/in/%EB%8F%84%ED%97%8C-%EA%B8%88-30937a187/"
-}

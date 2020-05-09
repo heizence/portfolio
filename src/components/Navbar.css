@@ -39,3 +39,9 @@ a {
 .items:hover {
   cursor: pointer;
 }
+
+@media screen and (max-width: 600px) {
+  #navbar {
+    padding: 0
+  }
+}

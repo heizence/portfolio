@@ -50,6 +50,7 @@ export default function App({ modalOpen, toggleModal, data }){
 
         {videoFiles ?
         videoFiles.map((video, index) => {
+          console.log('video file info : ', video)
           return (
             <div key={index}>
               <video className="portfolioModal-img" controls >

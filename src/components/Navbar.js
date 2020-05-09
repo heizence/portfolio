@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import './Navbar.css'
 
 const Navbar = () => {
-    const section = ['home', 'about', 'portfolio', 'contact']
+    const section = ['home', 'portfolio']
     return (
         <div id="navbar">       
         <ul id="list">
